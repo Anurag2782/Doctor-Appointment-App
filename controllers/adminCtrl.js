@@ -10,7 +10,7 @@ const getAllUsersController = async (req, res) => {
       data: users,
     });
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     res.status(500).send({
       success: false,
       message: "erorr while fetching users",
@@ -28,7 +28,7 @@ const getAllDoctorsController = async (req, res) => {
       data: doctors,
     });
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     res.status(500).send({
       success: false,
       message: "error while getting doctors data",
@@ -57,7 +57,7 @@ const changeAccountStatusController = async (req, res) => {
       data: doctor,
     });
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     res.status(500).send({
       success: false,
       message: "Error in Account Status",

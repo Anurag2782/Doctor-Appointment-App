@@ -22,7 +22,7 @@ const registerController = async (req, res) => {
     await newUser.save();
     res.status(201).send({ message: "Register Sucessfully", success: true });
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     res.status(500).send({
       success: false,
       message: `Register Controller ${error.message}`,
@@ -50,7 +50,7 @@ const loginController = async (req, res) => {
     });
     res.status(200).send({ message: "Login Success", success: true, token });
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     res.status(500).send({ message: `Error in Login CTRL ${error.message}` });
   }
 };
@@ -89,7 +89,7 @@ const forgotPasswordController = async (req, res) => {
 
     res.status(200).send({ message: "Mail sent to the user", success: true ,info});
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     res.status(500).send({ message: `Error in sending mail ${error.message}` });
   }
 };
@@ -112,7 +112,7 @@ const resetPasswordController = async (req, res) => {
       res.json({ Status: "Error with token" });
     }
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     res.status(500).send({
       success: false,
       message: `Reset Error ${error.message}`,
@@ -139,7 +139,7 @@ const authController = async (req, res) => {
       });
     }
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     res.status(500).send({
       message: "auth error",
       success: false,
@@ -170,7 +170,7 @@ const applyDoctorController = async (req, res) => {
       message: "Doctor Account Applied SUccessfully",
     });
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     res.status(500).send({
       success: false,
       error,
@@ -195,7 +195,7 @@ const getAllNotificationController = async (req, res) => {
       data: updatedUser,
     });
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     res.status(500).send({
       message: "Error in notification",
       success: false,
@@ -218,7 +218,7 @@ const deleteAllNotificationController = async (req, res) => {
       data: updatedUser,
     });
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     res.status(500).send({
       success: false,
       message: "Unable to delete all notifications",
@@ -237,7 +237,7 @@ const getAllDocotrsController = async (req, res) => {
       data: doctors,
     });
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     res.status(500).send({
       success: false,
       error,
@@ -266,7 +266,7 @@ const bookeAppointmnetController = async (req, res) => {
       message: "Appointment Book succesfully",
     });
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     res.status(500).send({
       success: false,
       error,
@@ -304,7 +304,7 @@ const bookingAvailabilityController = async (req, res) => {
       });
     }
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     res.status(500).send({
       success: false,
       error,
@@ -324,7 +324,7 @@ const userAppointmentsController = async (req, res) => {
       data: appointments,
     });
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     res.status(500).send({
       success: false,
       error,
