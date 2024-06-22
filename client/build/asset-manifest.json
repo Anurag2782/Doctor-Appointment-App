@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0643623e.css",
+    "main.js": "/static/js/main.50ad6073.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/pediatrician.jpg": "/static/media/pediatrician.859c8c792f192d1953c7.jpg",
+    "static/media/testimonial-G.png": "/static/media/testimonial-G.5ebec0f0a90318e448f1.png",
+    "static/media/article-strong-executive-presence.png": "/static/media/article-strong-executive-presence.6423b918cbbcf0b1c814.png",
+    "static/media/testimonial-pj.png": "/static/media/testimonial-pj.5a0f011c0b5f12e733e3.png",
+    "static/media/bgImage2.png": "/static/media/bgImage2.fc68d1221ec107319515.png",
+    "static/media/d.png": "/static/media/d.43502cad944d52075918.png",
+    "static/media/testimonial-AS.png": "/static/media/testimonial-AS.39545cea3ae1968aba9c.png",
+    "static/media/article-health-check.png": "/static/media/article-health-check.785e6b12ba9948912679.png",
+    "static/media/cardiologist.jpg": "/static/media/cardiologist.8e0e4c266715f42c1e1c.jpg",
+    "static/media/about-us.png": "/static/media/about-us.526bf2607ef86de76a72.png",
+    "static/media/cardm.png": "/static/media/cardm.2845f857eeab3fd77224.png",
+    "static/media/article-child-illness.jpg": "/static/media/article-child-illness.151644515a2f07019724.jpg",
+    "static/media/psychiatrist.jpg": "/static/media/psychiatrist.a401dc10f8f4cdb68957.jpg",
+    "static/media/article-chronic-disease.jpg": "/static/media/article-chronic-disease.2986c119a81554f1656f.jpg",
+    "static/media/OIP4.png": "/static/media/OIP4.31dcaae7f152224131dc.png",
+    "static/media/OIP1.jpg": "/static/media/OIP1.9d311ad8ef42827dd03d.jpg",
+    "static/media/neurologist.jpg": "/static/media/neurologist.34534eb1c6a059b368ab.jpg",
+    "static/media/cardf.png": "/static/media/cardf.633c3ea3860841a04873.png",
+    "static/media/vector-doctor-health-care.jpg": "/static/media/vector-doctor-health-care.9e06b40bae5710b476b3.jpg",
+    "static/media/OIP2.jpg": "/static/media/OIP2.64273ad8c2c965452d6a.jpg",
+    "static/media/OIP3.jpg": "/static/media/OIP3.93f16df45743869efde3.jpg",
+    "index.html": "/index.html",
+    "main.0643623e.css.map": "/static/css/main.0643623e.css.map",
+    "main.50ad6073.js.map": "/static/js/main.50ad6073.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0643623e.css",
+    "static/js/main.50ad6073.js"
+  ]
+}
